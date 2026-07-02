@@ -20,21 +20,21 @@ PSTN --> Telynx Operator connect --> Teams cloud --> Teams users
 
 
 # Implementation Steps:
-- ✅ 1. Direct Routing Cleanup:
+1. Direct Routing Cleanup:
 - ✅ Removed Direct Routing number associations
 - ✅ Removed SBC dependencies
 - ✅ Released previously assigned numbers
-- ✅ 2. Operator Connect Onboarding:
+2. Operator Connect Onboarding:
 - ✅ Established Operator Connect relationship
 - ✅ Connected tenant with Telnyx
 - ✅ Published numbers to Teams
-- ✅ 3. Emergency Location Configuration:
+3. Emergency Location Configuration:
 - ✅ Created and validated emergency addresses
 - ✅ Associated emergency location with Operator Connect inventory
-- ✅ 4. Number Assignment:
+4. Number Assignment:
 - ✅ Imported numbers into Teams inventory
 - ✅ Assigned Operator Connect number to user
-- ✅ 5. Validation:
+5. Validation:
 - ✅ Inbound PSTN Testing
 - ✅ utbound PSTN Testing
 - ✅ Two-way audio verification
